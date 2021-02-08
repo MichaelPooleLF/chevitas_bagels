@@ -73,7 +73,7 @@ const MenuSection = ({
         in={expanded}
       >
         {type.items.map(item => (
-          <div className={classes.itemContainer}>
+          <div key={item.id} className={classes.itemContainer}>
               <Typography variant={'h5'}>{item.allSmoothiePrices}</Typography>
               <Typography variant={'h5'}>{item.allSaladPrices}</Typography>
               <div className={small? classes.itemAndPriceVertical : classes.itemAndPriceContainer}>
