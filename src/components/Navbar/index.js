@@ -10,7 +10,7 @@ const Navbar = ({ lang }) => {
 
   const SmallScreen = () => {
     return (
-      <Grid container item spacing={3} xs={6} sm={8}>
+      <Grid container item spacing={0} xs={6} sm={8}>
         <Grid container>
           <Grid item xs={4}></Grid>
           <Grid item xs={4}></Grid>
@@ -24,7 +24,7 @@ const Navbar = ({ lang }) => {
 
   const LargeScreen = () => {
     return (
-      <Grid container item spacing={3} xs={6} sm={8} justify="space-evenly" alignItems="center">
+      <Grid container item spacing={0} xs={6} sm={8} justify="space-evenly" alignItems="center">
         <NavLabels lang={lang} />
       </Grid>
     )
@@ -41,8 +41,8 @@ const Navbar = ({ lang }) => {
 
   return (
     <nav className="navbar">
-      <Grid container spacing={3}>
-          <Grid container item spacing={3} xs={6} sm={4} justify="center" alignItems="center">
+      <Grid container spacing={0}>
+          <Grid container item spacing={0} xs={6} sm={4} justify="center" alignItems="center">
             <img className="logo" src={chevitasLogoSrc} alt='chevitas logo' />
           </Grid>
           { isScreenSmall ? <SmallScreen/> : <LargeScreen/>}
