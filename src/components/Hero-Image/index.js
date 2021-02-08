@@ -1,7 +1,7 @@
 import React from 'react';
 import {withStyles} from '@material-ui/core';
 import menuHeaderImage from '../images/menu-photo-1.jpg';
-import logo from "../images/chevitas-logo.png";
+import logo from "../images/logo.png";
 import storyImage from '../images/owner-and-store-front.jpg';
 import contactImage from "../images/contact-us-background-1.jpg";
 import "./hero-image.css"

@@ -8,11 +8,10 @@ import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 const styles = () => ({
   categoryContainer: {
       display: 'flex',
-      flexWrap: 'wrap',
       justifyContent: 'space-between',
       padding: 10,
     '&:hover': {
-          backgroundColor: '#D6E9C9',
+          backgroundColor: '#96F0AF',
       cursor: 'pointer'
     }
   },

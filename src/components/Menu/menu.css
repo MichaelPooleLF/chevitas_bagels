@@ -88,3 +88,10 @@
     --component-height: 700px;
   }
 }
+
+@media (max-width: 600px) {
+	.MenuSection-itemAndPriceContainer-148 {
+		flex-direction: column;
+		text-align: left;
+	}
+}
